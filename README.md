@@ -29,3 +29,5 @@ Please see the [Docker installation documentation] for details on how to upgrade
    [(jessie.oracle-jdk8/Dockerfile)]: <https://github.com/secangkirkopipanas/docker-debian/blob/jessie.oracle-jdk8/Dockerfile>
    [(jessie.oracle-jdk7/Dockerfile)]: <https://github.com/secangkirkopipanas/docker-debian/blob/jessie.oracle-jdk7/Dockerfile>
    [(jessie.oracle-jdk6/Dockerfile)]: <https://github.com/secangkirkopipanas/docker-debian/blob/jessie.oracle-jdk6/Dockerfile>
+   [(jessie.openjdk8/Dockerfile)]: <https://github.com/secangkirkopipanas/docker-debian/blob/jessie.openjdk8/Dockerfile>
+   [(jessie.openjdk7/Dockerfile)]: <https://github.com/secangkirkopipanas/docker-debian/blob/jessie.openjdk7/Dockerfile>
