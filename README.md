@@ -1,6 +1,8 @@
 # Debian Docker Image
 
-This image is updated via pull requests to the `secangkirkopipanas/docker-debian` [GitHub repo]. It is a Debian image with additional software such as `Oracle JDK 8/7/6`, `nano`, `wget`, and `zip`.
+Maintener: [Robertus Lilik Haryanto]
+
+This image is updated via pull requests to the `secangkirkopipanas/docker-debian` [GitHub repo]. It is a Debian image with additional software such as `Oracle JDK 8/7/6`, `nano`, `wget`, `zip`, and `telnet`.
 
 ## Supported tags
 - `latest.oracle-jdk8` [(master/Dockerfile)]
@@ -22,6 +24,7 @@ Support for older versions (down to 1.6) is provided on a best-effort basis.
 Please see the [Docker installation documentation] for details on how to upgrade your Docker daemon.
 
 
+   [Robertus Lilik Haryanto]: <mailto:robert.djokdja@gmail.com>
    [GitHub repo]: <https://github.com/secangkirkopipanas/docker-debian>
    [wikipedia.org/wiki/Debian]: <https://en.wikipedia.org/wiki/Debian>
    [Docker installation documentation]: <https://docs.docker.com/installation/>
