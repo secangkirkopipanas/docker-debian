@@ -1,6 +1,6 @@
 # Debian Docker Image
 
-Maintener: [Robertus Lilik Haryanto]
+Maintainer: [Robertus Lilik Haryanto]
 
 This image is updated via pull requests to the `secangkirkopipanas/docker-debian` [GitHub repo]. It is a Debian image with additional software such as `Oracle JDK 8/7/6`, `nano`, `wget`, `zip`, and `telnet`.
 
