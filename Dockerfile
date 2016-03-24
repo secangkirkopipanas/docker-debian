@@ -3,12 +3,12 @@ MAINTAINER Robertus Lilik Haryanto <robert.djokdja@gmail.com>
 
 # Add webupd8 repository
 RUN \
-	echo "### Add 0x mirror (Singapore)" && \
-	echo "deb http://mirror.0x.sg/debian/ jessie main" | tee /etc/apt/sources.list.d/0x-mirror.list && \
+    echo "### Add 0x mirror (Singapore)" && \
+    echo "deb http://mirror.0x.sg/debian/ jessie main" | tee /etc/apt/sources.list.d/0x-mirror.list && \
     echo "deb-src http://mirror.0x.sg/debian/ jessie main" | tee -a /etc/apt/sources.list.d/0x-mirror.list && \
-	echo "deb http://kambing.ui.ac.id/debian/ jessie main" | tee /etc/apt/sources.list.d/kambing.ui.ac.id.list && \
+    echo "deb http://kambing.ui.ac.id/debian/ jessie main" | tee /etc/apt/sources.list.d/kambing.ui.ac.id.list && \
     echo "deb-src http://kambing.ui.ac.id/debian/ jessie main" | tee -a /etc/apt/sources.list.d/kambing.ui.ac.id.list && \
-	echo "deb http://kambing.ui.ac.id/debian/ jessie-backports main" | tee /etc/apt/sources.list.d/kambing.ui.ac.id.jessie-backports.list
+    echo "deb http://kambing.ui.ac.id/debian/ jessie-backports main" | tee /etc/apt/sources.list.d/kambing.ui.ac.id.jessie-backports.list
 	
 RUN \
 	echo "### Install OpenJDK 8" && \
@@ -16,7 +16,7 @@ RUN \
 	
 RUN \
 	echo "### Install few applications"  && \
-	apt-get install -y nano wget zip
+	apt-get install -y nano wget zip telnet
 	
 RUN \
     echo "### Clean up..."  && \
