@@ -25,7 +25,7 @@ RUN \
     rm -rf /var/lib/apt/lists/*
 	
 ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64/
-ENV PATH $PATH/$JAVA_HOME/bin
+ENV PATH $PATH:$JAVA_HOME/bin
 ENV TZ Asia/Singapore
 
 # Define default command
