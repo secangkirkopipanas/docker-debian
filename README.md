@@ -4,11 +4,14 @@ Maintainer: [Robertus Lilik Haryanto]
 
 This image is updated via pull requests to the `secangkirkopipanas/docker-debian` [GitHub repo]. It is a Debian image with additional software such as `Oracle JDK 8/7/6`, `nano`, `wget`, `zip`, and `telnet`.
 
-## Supported tags
+## Supported tags for Oracle JDK
 - `latest.oracle-jdk8` [(master/Dockerfile)]
 - `jessie.oracle-jdk8` [(jessie.oracle-jdk8/Dockerfile)]
 - `jessie.oracle-jdk7` [(jessie.oracle-jdk7/Dockerfile)]
 - `jessie.oracle-jdk6` [(jessie.oracle-jdk6/Dockerfile)]
+- 
+## Supported tags for OpenJDK
+- `latest.openjdk8` [(latest.openjdk8/Dockerfile)]
 - `jessie.openjdk8` [(jessie.openjdk8/Dockerfile)]
 - `jessie.openjdk7` [(jessie.openjdk7/Dockerfile)]
 
@@ -32,5 +35,6 @@ Please see the [Docker installation documentation] for details on how to upgrade
    [(jessie.oracle-jdk8/Dockerfile)]: <https://github.com/secangkirkopipanas/docker-debian/blob/jessie.oracle-jdk8/Dockerfile>
    [(jessie.oracle-jdk7/Dockerfile)]: <https://github.com/secangkirkopipanas/docker-debian/blob/jessie.oracle-jdk7/Dockerfile>
    [(jessie.oracle-jdk6/Dockerfile)]: <https://github.com/secangkirkopipanas/docker-debian/blob/jessie.oracle-jdk6/Dockerfile>
+   [(latest.openjdk8/Dockerfile)]: <https://github.com/secangkirkopipanas/docker-debian/blob/latest.openjdk8/Dockerfile>
    [(jessie.openjdk8/Dockerfile)]: <https://github.com/secangkirkopipanas/docker-debian/blob/jessie.openjdk8/Dockerfile>
    [(jessie.openjdk7/Dockerfile)]: <https://github.com/secangkirkopipanas/docker-debian/blob/jessie.openjdk7/Dockerfile>
