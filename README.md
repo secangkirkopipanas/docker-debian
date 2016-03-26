@@ -19,7 +19,7 @@ This image is updated via pull requests to the `secangkirkopipanas/docker-debian
 - `latest.openjdk8.tomcat8` [`coming soon`]
 - `jessie.openjdk8.tomcat8` [`coming soon`]
 
-## Supported tags for Apache Wildfly 10 with OpenJDK 8
+## Supported tags for RedHat Wildfly 10 with OpenJDK 8
 - `latest.openjdk8.wildfly10` [`coming soon`]
 - `jessie.openjdk8.wildfly10` [`coming soon`]
 
