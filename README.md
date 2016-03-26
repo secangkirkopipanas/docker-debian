@@ -9,7 +9,7 @@ This image is updated via pull requests to the `secangkirkopipanas/docker-debian
 - `jessie.oracle-jdk8` [(jessie.oracle-jdk8/Dockerfile)]
 - `jessie.oracle-jdk7` [(jessie.oracle-jdk7/Dockerfile)]
 - `jessie.oracle-jdk6` [(jessie.oracle-jdk6/Dockerfile)]
-- 
+
 ## Supported tags for OpenJDK
 - `latest.openjdk8` [(latest.openjdk8/Dockerfile)]
 - `jessie.openjdk8` [(jessie.openjdk8/Dockerfile)]
