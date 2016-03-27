@@ -16,7 +16,7 @@ RUN \
 	
 RUN \
 	echo "### Install few applications"  && \
-	apt-get install -y nano wget zip
+	apt-get install -y nano wget zip telnet
 	
 RUN \
     echo "### Clean up..."  && \
