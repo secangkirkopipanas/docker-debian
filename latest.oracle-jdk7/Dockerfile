@@ -20,10 +20,10 @@ RUN \
 
 # Install Oracle Java
 RUN \
-    echo "### Install Oracle Java 8" && \
+    echo "### Install Oracle Java 7" && \
     echo debconf shared/accepted-oracle-license-v1-1 select true | debconf-set-selections && \
     echo debconf shared/accepted-oracle-license-v1-1 seen true | debconf-set-selections && \
-    DEBIAN_FRONTEND=noninteractive apt-get install -y --force-yes oracle-java8-installer oracle-java8-set-default
+    DEBIAN_FRONTEND=noninteractive apt-get install -y --force-yes oracle-java7-installer oracle-java7-set-default
 
 # Install additional softwares
 RUN \
@@ -33,12 +33,12 @@ RUN \
 # Clean up apt cache
 RUN \
     echo "### Clean up..."  && \
-    rm -rf /var/cache/oracle-jdk8-installer  && \
+    rm -rf /var/cache/oracle-jdk7-installer  && \
     apt-get clean  && \
     rm -rf /var/lib/apt/lists/*
 
 # Set environment variable
-ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
+ENV JAVA_HOME /usr/lib/jvm/java-7-oracle
 ENV PATH $PATH:$JAVA_HOME/bin
 ENV TZ Asia/Singapore
 

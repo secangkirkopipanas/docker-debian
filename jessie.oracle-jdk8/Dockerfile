@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:jessie
 MAINTAINER Robertus Lilik Haryanto <robert.djokdja@gmail.com>
 
 # Add newarest repository
